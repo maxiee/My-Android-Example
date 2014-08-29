@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">mainActivity</string>
+    <string-array name="items">
+        <item>欢迎访问</item>
+        <item>judymax.com</item>
+        <item>望此教程</item>
+        <item>有助于您</item>
+    </string-array>
+    <string name="drawer_open">打开抽屉</string>
+    <string name="drawer_close">关闭抽屉</string>
 </resources>
