@@ -38,11 +38,11 @@ public class mainActivity extends Activity
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         actionBarDrawerToggle = new ActionBarDrawerToggle(
-                this,
-                drawerLayout,
-                R.drawable.ic_drawer,
-                R.string.drawer_open,
-                R.string.drawer_close
+                this,                   // host activity
+                drawerLayout,           // DrawerLayout
+                R.drawable.ic_drawer,   // Up caret
+                R.string.drawer_open,   // open description
+                R.string.drawer_close   // close description
                 );
         
         drawerLayout.setDrawerShadow(R.drawable.drawer_shadow,GravityCompat.START);
